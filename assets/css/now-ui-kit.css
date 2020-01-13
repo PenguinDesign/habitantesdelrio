@@ -27,11 +27,24 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+.topmargin {
+  margin-top: 2rem;
+}
+
+.card-list {
+  list-style: none;
+  display: inline-block;
+  padding-inline-start: 0;
+}
+.card-list li {
+  margin: .5rem 0;
+}
+
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 30px; 
   border: 0;
   position: relative;
   text-align: left;
@@ -2223,7 +2236,8 @@ fieldset[disabled] .btn-neutral.active {
 .btn-neutral.btn-danger:hover,
 .btn-neutral.btn-danger:focus,
 .btn-neutral.btn-danger:active {
-  color: #ff5555 !important;
+  color: #4bb5ff !important;
+  
 }
 
 .btn-neutral.btn-primary {
@@ -2294,7 +2308,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .btn-neutral:hover,
 .btn-neutral:focus {
-  color: #fa7a50 !important;
+  color: #4bb5ff !important;
 }
 
 .btn-neutral:hover:not(.nav-link),
@@ -3609,7 +3623,7 @@ p {
 .card-description,
 .footer-big p {
   color: #9A9A9A;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .category {
@@ -5607,11 +5621,11 @@ img {
 }
 
 .index-page .page-header {
-  height: 125vh;
+  height: 100vh;
 }
 
 .index-page .page-header .container>.content-center {
-  top: 37%;
+  top: 55%;
 }
 
 .index-page .page-header .category-absolute {
@@ -6072,7 +6086,7 @@ img {
   display: none;
 }
 
-.clear-filter[filter-color="orange"] {
+.clear-filter[filter-color="green"] {
   background: rgb(42, 130, 115, 0.5);
   /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.5),  rgba(42, 130, 115, 0.4));
