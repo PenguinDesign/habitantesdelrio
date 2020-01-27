@@ -172,7 +172,7 @@
                     400 ciudadanos
                   </li>
                   <li class="card-list--place">
-                    ... en Querétaro
+                    Río Quintana y Avenida Universidad hasta Av. 5 de Febrero, Centro Histórico en Querétaro
                   </li>
                 </ul>
               </div>
@@ -192,7 +192,7 @@
                     500 ciudadanos
                   </li>
                   <li class="card-list--place">
-                    ... en Querétaro
+                    Calesa hasta Pan de Dulce, Municipio del Marqués
                   </li>
                 </ul>
               </div>
@@ -212,7 +212,7 @@
                     300 ciudadanos
                   </li>
                   <li class="card-list--place">
-                    ... en Querétaro
+                    Av. 5 de Febrero hasta Zona Militar en la Delegación Carrillo Puerto, Municipio de Querétaro
                   </li>
                 </ul>
               </div>
@@ -281,20 +281,28 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
+
     </div>
-    <section class="map">
-      <h1>mapa interactivo</h1>
-    </section>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3>Mapa de las Limpiezas</h3>
+        <div class="mapcontainer">
+          <div id="map"></div>
+        </div>
+
+
+      </div>
+    </div>
+
   </div>
   <footer class="footer footer-default">
     <div class=" container ">
       <nav>
         <ul>
           <li>
-            <a href="../index.html">
+            <a href="../index.html" style="width: 40rem; height: 40rem;">
               Habitantes del Río
             </a>
           </li>
@@ -323,6 +331,10 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
   <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
+  <script src="../map.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxJGnoCa4um4efdn2WLMUu3p-yHjeJ84c&callback=initMap">
+    </script>
 </body>
 
 </html>

@@ -27,6 +27,11 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+ #map {
+   height: 85vh;
+   width: 100vw;
+ }
+ 
  .festival__card {
   height: 24rem;
   width: 20rem;
