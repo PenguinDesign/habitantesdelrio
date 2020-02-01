@@ -26,20 +26,44 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
+#privacidad {
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin-top: 3rem;
+}
 
- #map {
-   height: 85vh;
-   width: 100vw;
- }
- 
- .festival__card {
+.section-form {
+  background-color: green;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.registro {
+  width: 80vw;
+}
+
+@media screen and (min-width: 768px) {
+  .registro {
+    width: 35vw;
+  }
+}
+
+#map {
+  height: 85vh;
+  width: 100vw;
+}
+
+.festival__card {
   height: 24rem;
   width: 20rem;
   border-radius: 7px;
   overflow: hidden;
   background-size: cover;
   margin: 2rem 2rem;
- }
+}
 
 .topmargin {
   margin-top: 2rem;
@@ -4745,7 +4769,7 @@ Created using IcoMoon - icomoon.io
 
 .navbar .navbar-nav .nav-link:not(.btn) {
   text-transform: uppercase;
-  font-size: .85em;
+  font-size: 0.85em;
   padding: 0.5rem 0.7rem;
   line-height: 1.625rem;
 }
