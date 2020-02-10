@@ -4045,6 +4045,11 @@ img {
   display: block;
 }
 
+.center-carousels {
+  display: flex;
+  justify-content: center;
+}
+
 .carousel .carousel-inner {
   box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
   border-radius: 0.1875rem;
@@ -4054,6 +4059,17 @@ img {
   max-width: 650px;
   margin: 60px auto;
   display: block;
+}
+
+.carousel-small {
+  height: 30rem;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.carousel-tall {
+  height: 25rem;
+  width: 20rem;
 }
 
 .footer {
