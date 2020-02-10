@@ -51,7 +51,7 @@ function getInputVal(id) {
 
 // guardar contacto
 function guardarContacto(nombre, apellido, empresa, correo, telefono) {
-    db.collection("contactos").doc(nombre + apellido).set({
+    db.collection("contactos").doc(`${nombre} ${apellido}`).set({
         nombre: nombre,
         apellido: apellido,
         empresa: empresa,
