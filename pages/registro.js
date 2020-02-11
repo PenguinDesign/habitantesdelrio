@@ -1,13 +1,13 @@
 //FIREBASE CONFIG
 var firebaseConfig = {
-    apiKey: "AIzaSyC9hf_PCjpCMkUheKRcsYOUFmADDz8esV4",
-    authDomain: "habitantes-1579804454963.firebaseapp.com",
-    databaseURL: "https://habitantes-1579804454963.firebaseio.com",
-    projectId: "habitantes-1579804454963",
-    storageBucket: "habitantes-1579804454963.appspot.com",
-    messagingSenderId: "775563465427",
-    appId: "1:775563465427:web:9cd967d6ace9975f7cba26",
-    measurementId: "G-QKZCPV40TH"
+    apiKey: "AIzaSyDJ_pIUkCip1Hee4oBGjGpdhye1R573ICk",
+    authDomain: "habitantes-del-rio.firebaseapp.com",
+    databaseURL: "https://habitantes-del-rio.firebaseio.com",
+    projectId: "habitantes-del-rio",
+    storageBucket: "habitantes-del-rio.appspot.com",
+    messagingSenderId: "868438321890",
+    appId: "1:868438321890:web:e8bc98cfaf85ad6b304cbb",
+    measurementId: "G-9YB5M0TKXZ"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
